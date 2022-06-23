@@ -18,6 +18,10 @@
 		0408B54C28640A83008C05B4 /* AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408B54B28640A83008C05B4 /* AppUITestsLaunchTests.swift */; };
 		0408B56F28640CEE008C05B4 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0408B56E28640CEE008C05B4 /* Common.framework */; };
 		0408B57028640CEE008C05B4 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0408B56E28640CEE008C05B4 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		043F5A5E2864498D00F16627 /* Cart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F5A5D2864498D00F16627 /* Cart.framework */; };
+		043F5A5F2864498D00F16627 /* Cart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043F5A5D2864498D00F16627 /* Cart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		043F5A612864499400F16627 /* Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F5A602864499400F16627 /* Product.framework */; };
+		043F5A622864499400F16627 /* Product.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043F5A602864499400F16627 /* Product.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0DDEF9C7E2A44058169270A1 /* Pods_App_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA89F644F7EE847F85CCB44 /* Pods_App_AppUITests.framework */; };
 		AF73B187B342292D43B5B304 /* Pods_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E16A94F727B66781F83CA2B /* Pods_App.framework */; };
 		D5375CAFCC9FA03594D6C91F /* Pods_App_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D235C563FE90B26245706F97 /* Pods_App_AppTests.framework */; };
@@ -47,6 +51,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				043F5A5F2864498D00F16627 /* Cart.framework in Embed Frameworks */,
+				043F5A622864499400F16627 /* Product.framework in Embed Frameworks */,
 				0408B57028640CEE008C05B4 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -69,6 +75,8 @@
 		0408B54928640A83008C05B4 /* AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITests.swift; sourceTree = "<group>"; };
 		0408B54B28640A83008C05B4 /* AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0408B56E28640CEE008C05B4 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F5A5D2864498D00F16627 /* Cart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Cart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F5A602864499400F16627 /* Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C519A405B70507F4E1A3AC /* Pods-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.debug.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.debug.xcconfig"; sourceTree = "<group>"; };
 		2E16A94F727B66781F83CA2B /* Pods_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70713AD8B30240B2C4F200CC /* Pods-App-AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App-AppTests.release.xcconfig"; path = "Target Support Files/Pods-App-AppTests/Pods-App-AppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +95,8 @@
 			files = (
 				AF73B187B342292D43B5B304 /* Pods_App.framework in Frameworks */,
 				0408B56F28640CEE008C05B4 /* Common.framework in Frameworks */,
+				043F5A612864499400F16627 /* Product.framework in Frameworks */,
+				043F5A5E2864498D00F16627 /* Cart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +188,8 @@
 		EB6BD3C7DACB525A9E960EFA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				043F5A602864499400F16627 /* Product.framework */,
+				043F5A5D2864498D00F16627 /* Cart.framework */,
 				0408B56E28640CEE008C05B4 /* Common.framework */,
 				2E16A94F727B66781F83CA2B /* Pods_App.framework */,
 				D235C563FE90B26245706F97 /* Pods_App_AppTests.framework */,

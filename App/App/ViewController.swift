@@ -7,6 +7,8 @@
 
 import UIKit
 import Common
+import Product
+import Cart
 
 class ViewController: UIViewController {
 
@@ -20,6 +22,11 @@ class ViewController: UIViewController {
 
     @IBAction func helloActBtn(_ sender: Any) {
         helloLabel.text = "Hai \(nameText.text ?? "yourname") \(hello)"
+    }
+    
+    @IBAction func openActBtn(_ sender: Any) {
+        let nextVC = ProductViewController(vc: CartViewController())
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
     
 }
