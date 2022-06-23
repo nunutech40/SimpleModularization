@@ -31,4 +31,6 @@ pod install
 <img width="1411" alt="Screenshot 2022-06-23 at 11 11 47 AM" src="https://user-images.githubusercontent.com/49187517/175207471-b97eb04c-82ba-4992-ac98-ee520f347566.png">
 
 
-
+#About this simple project modularization:
+- I create with storyboard
+- Minimum build
